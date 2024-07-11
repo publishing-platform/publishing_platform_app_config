@@ -1,2 +1,2 @@
-# Publishing Platform Appication Config
+# Publishing Platform App Config
 Gem to configure Publishing Platform Ruby applications

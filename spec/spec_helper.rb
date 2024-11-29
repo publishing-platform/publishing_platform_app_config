@@ -1,5 +1,9 @@
 # frozen_string_literal: true
 
+require "simplecov"
+SimpleCov.start
+
+require "climate_control"
 require "publishing_platform_app_config"
 
 RSpec.configure do |config|

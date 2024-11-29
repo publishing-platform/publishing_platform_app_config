@@ -34,7 +34,7 @@ module PublishingPlatformError
     raise PublishingPlatformError::AlreadyInitialised if is_configured?
 
     if defined?(Sidekiq) && !defined?(Sentry::Sidekiq)
-      warn "Warning: PublishingPlatformAppConfig is not configured to track Sidekiq errors, install the sentry-sidekiq gem to track them."
+      warn "Warning: PublishingPlatformError is not configured to track Sidekiq errors, install the sentry-sidekiq gem to track them."
     end
 
     Sentry.init do |sentry_config|

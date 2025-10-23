@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "puma", ">= 5.6", "< 7.0"
   spec.add_dependency "sentry-rails", "~> 5.3"
-  spec.add_dependency "sentry-ruby", "~> 5.3"
+  spec.add_dependency "sentry-ruby", ">= 5.3", "< 7.0"
 
   spec.add_development_dependency "climate_control"
   spec.add_development_dependency "publishing_platform_rubocop"

@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.summary = "Base configuration for Publishing Platform applications"
   spec.description = "Base configuration for Publishing Platform applications"
   spec.license = "MIT"
-  spec.required_ruby_version = ">= 3.1"
+  spec.required_ruby_version = ">= 3.2"
 
   spec.files =  `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir = "exe"

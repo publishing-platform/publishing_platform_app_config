@@ -21,8 +21,8 @@ Gem::Specification.new do |spec|
   spec.add_dependency "sentry-rails", ">= 5.3", "< 7.0"
   spec.add_dependency "sentry-ruby", "~> 5.3"
 
-  spec.add_development_dependency "climate_control"
-  spec.add_development_dependency "publishing_platform_rubocop"
+  spec.add_development_dependency "climate_control", "~> 1.2"
+  spec.add_development_dependency "publishing_platform_rubocop", "~> 0.2"
   spec.add_development_dependency "rails", "~> 7"
-  spec.add_development_dependency "simplecov"
+  spec.add_development_dependency "simplecov", "~> 0.22"
 end
